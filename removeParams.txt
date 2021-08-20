@@ -56,6 +56,7 @@
 ||www.amazon.*/dp/$removeparam=tag
 ||smile.amazon.*/dp/$removeparam=tag
 ||amazon.com$removeparam=spIA
+||amazon.com$removeparam=th
 ! Exception: do not remove params on redirector.html
 @@||amazon.com.*?/redirector.html.*$removeparam
 
